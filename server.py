@@ -567,6 +567,14 @@ with st.sidebar:
         st.warning("Disclaimer: The output of this application is for viewing only and cannot be used for legal purposes. It is advised to seek assistance from a duly licensed Geodetic Engineer or verify from the mandated agencies (LMB and LRA).")
 
     with tabs[1]:
+        with st.expander("AI Assistance: Generate CSV for Technical Description using OCR (Third-Party AI)"):
+            st.write("Prompt:")
+            st.code(
+                "Extract the Technical Description in CSV format from the attached image with the following columns: "
+                "NS, Deg, Min, EW, Dist. Include the tie line and place it in the first row. "
+                "Exclude all other data.", language=None, wrap_lines=True
+            )
+
         with st.container(border=True):
             notif_import_csv = st.container()
             file_upload = st.file_uploader("Import CSV File", type=['csv'], key="csv_file", on_change=validate_import_csv_form)
