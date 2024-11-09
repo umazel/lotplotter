@@ -1,0 +1,342 @@
+[
+    {
+        "name": "BBM NO. 2, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 14,
+            "sec": 38.59
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 50,
+            "sec": 39.38
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "MON NO. 3, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 15,
+            "sec": 39.07
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 50,
+            "sec": 34.48
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "MBM NO. 28, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 15,
+            "sec": 46.49
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 51,
+            "sec": 21.18
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "MBM NO. 27, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 16,
+            "sec": 8.17
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 49,
+            "sec": 41.12
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BBM NO. 28, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 16,
+            "sec": 7.33
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 49,
+            "sec": 16.96
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "MBM NO. 8, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 15,
+            "sec": 39.14
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 49,
+            "sec": 0.80
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BM NO. 51, CEBU CAD.",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 15,
+            "sec": 55.28
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 51,
+            "sec": 22.86
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BBM NO. 10, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 14,
+            "sec": 49.61
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 48,
+            "sec": 0.10
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BLLM NO. 1, CEBU CAD.",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 17,
+            "sec": 32.54
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 54,
+            "sec": 15.06
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BLLM NO. 1, CEBU CAD. 12 EXT.",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 17,
+            "sec": 32.46
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 54,
+            "sec": 15.09
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "MBM NO. 1, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 14,
+            "sec": 19.33
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 48,
+            "sec": 50.14
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BBM NO. 16, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 14,
+            "sec": 14.64
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 49,
+            "sec": 36.22
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BBM NO. 33, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 14,
+            "sec": 51.40
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 49,
+            "sec": 29.67
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BLLM NO. 14, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 15,
+            "sec": 30.92
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 49,
+            "sec": 24.71
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BBM NO. 25, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 15,
+            "sec": 40.40
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 50,
+            "sec": 8.10
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BBM NO. 21, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 15,
+            "sec": 54.29
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 50,
+            "sec": 13.53
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BLLM NO. 8, TAL.-MING. ESTATE",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 16,
+            "sec": 6.46
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 50,
+            "sec": 37.95
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BM NO. 43, CEBU CAD.",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 18,
+            "sec": 14.69
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 52,
+            "sec": 1.96
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BM NO. 44, CEBU CAD.",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 17,
+            "sec": 55.18
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 52,
+            "sec": 11.06
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BM NO. 30, CEBU CAD.",
+        "northing": 20000,
+        "easting": 20000,
+        "latitude": {
+            "deg": 10,
+            "min": 17,
+            "sec": 47.24
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 53,
+            "sec": 11.36
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    }
+]
