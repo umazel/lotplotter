@@ -556,7 +556,7 @@ with st.sidebar:
         with st.form(key="manual_input_form"):
             notif_manual_input = st.container()
 
-            cols = st.columns(5)
+            cols = st.columns([1,1,1,1,1.5])
             new_ns = cols[0].text_input("NS", key="new_ns")
             new_deg = cols[1].number_input("Deg", min_value=0, max_value=90, key="new_deg")
             new_min = cols[2].number_input("Min", min_value=0, max_value=60, key="new_min")
@@ -590,45 +590,46 @@ main_cols = st.columns([1,2])
 
 with main_cols[0]:
     tiepoint = st.selectbox("Tiepoint", options=st.session_state["tiepoint_data"], index=None, format_func=tiepoint_names, key="tiepoint_selected")
-    st.write("Technical Descriptions")
-    output_td_data = st.container()
-    for index, data in enumerate(current_td_data):
-        current_index = start_idx + index
-        with output_td_data.popover(f"{display_line(current_index)} {display_td_data(data)}"):
-            with st.form(key=f"update_form_{current_index}"):
-                st.session_state["notif_td_data"].append(st.container())
-                update_cols = st.columns(5)
-                update_ns = update_cols[0].text_input("NS", value=data['ns'], key=f"update_ns_{current_index}")
-                update_deg = update_cols[1].number_input("Deg", min_value=0, max_value=90, value=data['deg'], key=f"update_deg_{current_index}")
-                update_min = update_cols[2].number_input("Min", min_value=0, max_value=60, value=data['min'], key=f"update_min_{current_index}")
-                update_ew = update_cols[3].text_input("EW", value=data['ew'], key=f"update_ew_{current_index}")
-                update_dist = update_cols[4].number_input("Dist", min_value=0.00, step=1.00, value=data['dist'], key=f"update_dist_{current_index}")
-                st.form_submit_button("Update", on_click=validate_update_form, args=(current_index,), icon=":material/update:")
+    with st.container(border=True):
+        st.write("Technical Descriptions")
+        output_td_data = st.container()
+        for index, data in enumerate(current_td_data):
+            current_index = start_idx + index
+            with output_td_data.popover(f"{display_line(current_index)} {display_td_data(data)}", use_container_width=True):
+                with st.form(key=f"update_form_{current_index}"):
+                    st.session_state["notif_td_data"].append(st.container())
+                    update_cols = st.columns(5)
+                    update_ns = update_cols[0].text_input("NS", value=data['ns'], key=f"update_ns_{current_index}")
+                    update_deg = update_cols[1].number_input("Deg", min_value=0, max_value=90, value=data['deg'], key=f"update_deg_{current_index}")
+                    update_min = update_cols[2].number_input("Min", min_value=0, max_value=60, value=data['min'], key=f"update_min_{current_index}")
+                    update_ew = update_cols[3].text_input("EW", value=data['ew'], key=f"update_ew_{current_index}")
+                    update_dist = update_cols[4].number_input("Dist", min_value=0.00, step=1.00, value=data['dist'], key=f"update_dist_{current_index}")
+                    st.form_submit_button("Update", on_click=validate_update_form, args=(current_index,), icon=":material/update:")
 
-            button_cols = st.columns(4)
-            button_cols[0].button("Delete", key=f"delete_{current_index}", use_container_width=True, on_click=delete, args=(current_index,), icon=":material/delete:")
-            button_cols[1].button("Copy", key=f"copy_{current_index}", use_container_width=True, on_click=copy, args=(current_index,), icon=":material/content_copy:")
-            button_cols[2].button("Move Up", key=f"move_up_{current_index}", use_container_width=True, on_click=move_up, args=(current_index,), disabled=True if current_index==0 else False, icon=":material/arrow_upward:")
-            button_cols[3].button("Move Down", key=f"move_down_{current_index}", use_container_width=True, on_click=move_down, args=(current_index,), disabled=False if current_index < len(st.session_state['td_data']) - 1 else True, icon=":material/arrow_downward:")
+                button_cols = st.columns(4)
+                button_cols[0].button("Delete", key=f"delete_{current_index}", use_container_width=True, on_click=delete, args=(current_index,), icon=":material/delete:")
+                button_cols[1].button("Copy", key=f"copy_{current_index}", use_container_width=True, on_click=copy, args=(current_index,), icon=":material/content_copy:")
+                button_cols[2].button("Move Up", key=f"move_up_{current_index}", use_container_width=True, on_click=move_up, args=(current_index,), disabled=True if current_index==0 else False, icon=":material/arrow_upward:")
+                button_cols[3].button("Move Down", key=f"move_down_{current_index}", use_container_width=True, on_click=move_down, args=(current_index,), disabled=False if current_index < len(st.session_state['td_data']) - 1 else True, icon=":material/arrow_downward:")
 
-    # Pagination controls
-    pagination_cols = st.columns(3)
-    if st.session_state["td_data"]:
-        with pagination_cols[0]:
-            if st.session_state["page_index"] > 0:
-                st.button("Previous", on_click=prev_page, key="prev_page", use_container_width=True, disabled=False)
-            else:
-                st.button("Previous", on_click=prev_page, key="prev_page", use_container_width=True, disabled=True)
+        # Pagination controls
+        pagination_cols = st.columns(3)
+        if st.session_state["td_data"]:
+            with pagination_cols[0]:
+                if st.session_state["page_index"] > 0:
+                    st.button("Previous", on_click=prev_page, key="prev_page", use_container_width=True, disabled=False)
+                else:
+                    st.button("Previous", on_click=prev_page, key="prev_page", use_container_width=True, disabled=True)
 
-        with pagination_cols[1]:
-            st.html(f"<div style='text-align: center;'>Page {st.session_state['page_index'] + 1} of {total_pages}</div>")
-            selected_page = st.number_input("Go to page:", min_value=1, max_value=total_pages, step=None, value=min(st.session_state["page_index"] + 1,total_pages), key="goto_page", on_change=go_to_page)
+            with pagination_cols[1]:
+                st.html(f"<div style='text-align: center;'>Page {st.session_state['page_index'] + 1} of {total_pages}</div>")
+                selected_page = st.number_input("Go to page:", min_value=1, max_value=total_pages, step=None, value=min(st.session_state["page_index"] + 1,total_pages), key="goto_page", on_change=go_to_page)
 
-        with pagination_cols[2]:
-            if st.session_state["page_index"] < total_pages - 1:
-                st.button("Next", on_click=next_page, key="next_page", use_container_width=True, disabled=False)
-            else:
-                st.button("Next", on_click=next_page, key="next_page", use_container_width=True, disabled=True)
+            with pagination_cols[2]:
+                if st.session_state["page_index"] < total_pages - 1:
+                    st.button("Next", on_click=next_page, key="next_page", use_container_width=True, disabled=False)
+                else:
+                    st.button("Next", on_click=next_page, key="next_page", use_container_width=True, disabled=True)
 
 with tabs[3]:
     switch = st.toggle("Show tieline", key="switch")
