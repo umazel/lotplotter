@@ -499,7 +499,7 @@ def generate_kml():
     # Add a line connecting the points
     line = kml.newlinestring(name="Path", coords=st.session_state["geographic"])
 
-    line.style.linestyle.color = "ff00ff"  # Magenta color
+    line.style.linestyle.color = "ffff00ff"  # Magenta color
     line.style.linestyle.width = 5  # Thickness of the line
 
     # If you need to return the KML as a string:
