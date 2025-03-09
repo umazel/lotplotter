@@ -569,9 +569,7 @@ with st.sidebar:
         with st.expander("AI Assistance: Generate CSV for Technical Description using OCR (Third-Party AI)"):
             st.write("Prompt:")
             st.code(
-                "Read and extract from pdf or attached file the Technical Description in CSV format from the attached image with the following columns: "
-                "NS, Deg, Min, EW, Dist. Include the tie line and place it in the first row. "
-                "Exclude all other data.", language=None, wrap_lines=True
+                "Read the technical description of the property from the provided document. Retrieve only the bearing and distance. Format the first result as a CSV with the following columns: NS, Deg, Min, EW, Dist. The tie line should be placed in the topmost of the first result. In second result, give me the reference point or the tie point. Exclude all other data. Do not give me explanation.", language=None, wrap_lines=True
             )
 
         with st.container(border=True):
