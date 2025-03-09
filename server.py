@@ -286,12 +286,12 @@ def validate_paste_text_form():
                         valid = False
                         break
 
-                    data.append({
-                        "ns": ns.upper(), 
-                        "deg": deg, 
-                        "min": min, 
-                        "ew": ew.upper(), 
-                        "dist": dist})
+                data.append({
+                    "ns": ns.upper(), 
+                    "deg": deg, 
+                    "min": min, 
+                    "ew": ew.upper(), 
+                    "dist": dist})
 
             else:
                 notif_paste.error(f"Invalid value from line {index+1}: **{line}**")
@@ -555,11 +555,10 @@ with st.sidebar:
     with tabs[0]:
         with st.form(key="manual_input_form"):
             notif_manual_input = st.container()
-
             cols = st.columns([1,1,1,1,1.5])
             new_ns = cols[0].text_input("NS", key="new_ns")
             new_deg = cols[1].number_input("Deg", min_value=0, max_value=90, key="new_deg")
-            new_min = cols[2].number_input("Min", min_value=0, max_value=60, key="new_min")
+            new_min =cols[2].number_input("Min", min_value=0, max_value=60, key="new_min")
             new_ew = cols[3].text_input("EW", key="new_ew")
             new_dist = cols[4].number_input("Dist", min_value=0.00, step=1.00, key="new_dist")
 
@@ -570,7 +569,7 @@ with st.sidebar:
         with st.expander("AI Assistance: Generate CSV for Technical Description using OCR (Third-Party AI)"):
             st.write("Prompt:")
             st.code(
-                "Extract the Technical Description in CSV format from the attached image with the following columns: "
+                "Read and extract from pdf or attached file the Technical Description in CSV format from the attached image with the following columns: "
                 "NS, Deg, Min, EW, Dist. Include the tie line and place it in the first row. "
                 "Exclude all other data.", language=None, wrap_lines=True
             )

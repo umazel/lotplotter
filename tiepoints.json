@@ -1,5 +1,22 @@
 [
     {
+        "name": "BLLM NO. 1, TAL.-MING. ESTATE (TALISAY-MINGLANILLA)",
+        "northing": 20000.00,
+        "easting": 20000.00,
+        "latitude": {
+            "deg": 10,
+            "min": 14,
+            "sec": 34.86
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 50,
+            "sec": 53.24
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
         "name": "BLLM NO. 8, TAL.-MING. ESTATE (TALISAY-MINGLANILLA)",
         "northing": 22814.44,
         "easting": 29534.72,
@@ -148,6 +165,91 @@
             "deg": 123,
             "min": 49,
             "sec": 29.67
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BBM NO. 31, TAL.-MING. ESTATE (TALISAY)",
+        "northing": 21129.93,
+        "easting": 17784.39,
+        "latitude": {
+            "deg": 10,
+            "min": 15,
+            "sec": 11.65
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 49,
+            "sec": 40.45
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BBM NO. 35, TAL.-MING. ESTATE (TALISAY)",
+        "northing": 23860.59,
+        "easting": 18181.64,
+        "latitude": {
+            "deg": 10,
+            "min": 16,
+            "sec": 40.51
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 49,
+            "sec": 53.50
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BBM NO. 1, TAL.-MING. ESTATE (MINGLANILLA)",
+        "northing": 19607.57,
+        "easting": 12593.30,
+        "latitude": {
+            "deg": 10,
+            "min": 14,
+            "sec": 22.08
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 46,
+            "sec": 49.91
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BBM NO. 11, TAL.-MING. ESTATE (MINGLANILLA)",
+        "northing": 20937.86,
+        "easting": 13598.40,
+        "latitude": {
+            "deg": 10,
+            "min": 15,
+            "sec": 5.38
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 47,
+            "sec": 22.92
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BBM NO. 18, TAL.-MING. ESTATE (MINGLANILLA)",
+        "northing": 22396.41,
+        "easting": 15596.30,
+        "latitude": {
+            "deg": 10,
+            "min": 15,
+            "sec": 52.86
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 48,
+            "sec": 28.56
         },
         "k_latitude": 30.723,
         "k_longitude": 30.437
@@ -335,6 +437,176 @@
             "deg": 123,
             "min": 54,
             "sec": 15.09
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BM NO. 59, CEBU CAD. (CEBU)",
+        "northing": 18670.53,
+        "easting": 12200.04,
+        "latitude": {
+            "deg": 10,
+            "min": 19,
+            "sec": 31.87
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 52,
+            "sec": 43.13
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "MON 12, BANILAD ESTATE (CEBU)",
+        "northing": 7184.50,
+        "easting": 1829.70,
+        "latitude": {
+            "deg": 10,
+            "min": 21,
+            "sec": 22.70
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 53,
+            "sec": 12.03
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "MON B, BANILAD ESTATE (CEBU)",
+        "northing": 785.10,
+        "easting": 2087.00,
+        "latitude": {
+            "deg": 10,
+            "min": 17,
+            "sec": 54.68
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 53,
+            "sec": 20.37
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "MON 9, BANILAD ESTATE (CEBU)",
+        "northing": 4513.80,
+        "easting": 2456.80,
+        "latitude": {
+            "deg": 10,
+            "min": 19,
+            "sec": 56.04
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 53,
+            "sec": 32.45
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "MON 3, BANILAD ESTATE (CEBU)",
+        "northing": 3296.10,
+        "easting": 4710.30,
+        "latitude": {
+            "deg": 10,
+            "min": 19,
+            "sec": 16.28
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 54,
+            "sec": 46.36
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "MON 5, BANILAD ESTATE (CEBU)",
+        "northing": 3213.60,
+        "easting": 3200.60,
+        "latitude": {
+            "deg": 10,
+            "min": 19,
+            "sec": 13.71
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 53,
+            "sec": 56.90
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BM NO. 42, CEBU CAD. (CEBU)",
+        "northing": 17027.60,
+        "easting": 11146.47,
+        "latitude": {
+            "deg": 10,
+            "min": 18,
+            "sec": 38.44
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 52,
+            "sec": 8.55
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "BM NO. 36, CEBU CAD. (CEBU)",
+        "northing": 19269.85,
+        "easting": 12374.28,
+        "latitude": {
+            "deg": 10,
+            "min": 19,
+            "sec": 51.38
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 52,
+            "sec": 48.85
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "MON 8, BANILAD ESTATE (CEBU)",
+        "northing": 5284.20,
+        "easting": 3622.10,
+        "latitude": {
+            "deg": 10,
+            "min": 20,
+            "sec": 21.12
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 54,
+            "sec": 10.74
+        },
+        "k_latitude": 30.723,
+        "k_longitude": 30.437
+    },
+    {
+        "name": "MON 1, BANILAD ESTATE (CEBU)",
+        "northing": 1682.00,
+        "easting": 3742.40,
+        "latitude": {
+            "deg": 10,
+            "min": 18,
+            "sec": 23.87
+        },
+        "longitude": {
+            "deg": 123,
+            "min": 54,
+            "sec": 14.76
         },
         "k_latitude": 30.723,
         "k_longitude": 30.437
